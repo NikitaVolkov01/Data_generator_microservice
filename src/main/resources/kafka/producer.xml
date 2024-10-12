@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<producer>
+    <!--По этому пути будет находиться сериалайзер для наших ключей-->
+    <keySerializer>org.apache.kafka.common.serialization.StringSerializer</keySerializer>
+    <valueSerializer>org.springframework.kafka.support.serializer.JsonSerializer</valueSerializer>
+</producer>
